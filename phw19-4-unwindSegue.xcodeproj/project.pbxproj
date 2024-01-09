@@ -13,6 +13,14 @@
 		F3A513032B4D386C00FA1757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A513012B4D386C00FA1757 /* Main.storyboard */; };
 		F3A513052B4D386D00FA1757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A513042B4D386D00FA1757 /* Assets.xcassets */; };
 		F3A513082B4D386D00FA1757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A513062B4D386D00FA1757 /* LaunchScreen.storyboard */; };
+		F3A513102B4D3B5600FA1757 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5130F2B4D3B5600FA1757 /* SettingTableViewController.swift */; };
+		F3A513122B4D3B6400FA1757 /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A513112B4D3B6400FA1757 /* CitiesTableViewController.swift */; };
+		F3A513142B4D400400FA1757 /* ChenYuluoyan-Thin-Monospaced.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3A513132B4D3F7800FA1757 /* ChenYuluoyan-Thin-Monospaced.ttf */; };
+		F3A513162B4D50EF00FA1757 /* CupLevelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A513152B4D50EF00FA1757 /* CupLevelTableViewController.swift */; };
+		F3A513182B4D510900FA1757 /* SurgarLevelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A513172B4D510900FA1757 /* SurgarLevelTableViewController.swift */; };
+		F3A5131A2B4D512600FA1757 /* IceLevelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A513192B4D512600FA1757 /* IceLevelTableViewController.swift */; };
+		F3A5131C2B4D514000FA1757 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A5131B2B4D514000FA1757 /* DrinksTableViewController.swift */; };
+		F3A5131E2B4D580900FA1757 /* WD-XLLubrifontTC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3A5131D2B4D580500FA1757 /* WD-XLLubrifontTC-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		F3A513042B4D386D00FA1757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3A513072B4D386D00FA1757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3A513092B4D386D00FA1757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3A5130F2B4D3B5600FA1757 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		F3A513112B4D3B6400FA1757 /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
+		F3A513132B4D3F7800FA1757 /* ChenYuluoyan-Thin-Monospaced.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin-Monospaced.ttf"; sourceTree = "<group>"; };
+		F3A513152B4D50EF00FA1757 /* CupLevelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupLevelTableViewController.swift; sourceTree = "<group>"; };
+		F3A513172B4D510900FA1757 /* SurgarLevelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurgarLevelTableViewController.swift; sourceTree = "<group>"; };
+		F3A513192B4D512600FA1757 /* IceLevelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceLevelTableViewController.swift; sourceTree = "<group>"; };
+		F3A5131B2B4D514000FA1757 /* DrinksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
+		F3A5131D2B4D580500FA1757 /* WD-XLLubrifontTC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WD-XLLubrifontTC-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,14 @@
 				F3A513042B4D386D00FA1757 /* Assets.xcassets */,
 				F3A513062B4D386D00FA1757 /* LaunchScreen.storyboard */,
 				F3A513092B4D386D00FA1757 /* Info.plist */,
+				F3A5130F2B4D3B5600FA1757 /* SettingTableViewController.swift */,
+				F3A513112B4D3B6400FA1757 /* CitiesTableViewController.swift */,
+				F3A5131B2B4D514000FA1757 /* DrinksTableViewController.swift */,
+				F3A513152B4D50EF00FA1757 /* CupLevelTableViewController.swift */,
+				F3A513172B4D510900FA1757 /* SurgarLevelTableViewController.swift */,
+				F3A513192B4D512600FA1757 /* IceLevelTableViewController.swift */,
+				F3A513132B4D3F7800FA1757 /* ChenYuluoyan-Thin-Monospaced.ttf */,
+				F3A5131D2B4D580500FA1757 /* WD-XLLubrifontTC-Regular.otf */,
 			);
 			path = "phw19-4-unwindSegue";
 			sourceTree = "<group>";
@@ -125,8 +149,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A513142B4D400400FA1757 /* ChenYuluoyan-Thin-Monospaced.ttf in Resources */,
 				F3A513082B4D386D00FA1757 /* LaunchScreen.storyboard in Resources */,
 				F3A513052B4D386D00FA1757 /* Assets.xcassets in Resources */,
+				F3A5131E2B4D580900FA1757 /* WD-XLLubrifontTC-Regular.otf in Resources */,
 				F3A513032B4D386C00FA1757 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +164,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A513122B4D3B6400FA1757 /* CitiesTableViewController.swift in Sources */,
 				F3A513002B4D386C00FA1757 /* ViewController.swift in Sources */,
+				F3A513102B4D3B5600FA1757 /* SettingTableViewController.swift in Sources */,
+				F3A513162B4D50EF00FA1757 /* CupLevelTableViewController.swift in Sources */,
+				F3A5131A2B4D512600FA1757 /* IceLevelTableViewController.swift in Sources */,
 				F3A512FC2B4D386C00FA1757 /* AppDelegate.swift in Sources */,
+				F3A513182B4D510900FA1757 /* SurgarLevelTableViewController.swift in Sources */,
+				F3A5131C2B4D514000FA1757 /* DrinksTableViewController.swift in Sources */,
 				F3A512FE2B4D386C00FA1757 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

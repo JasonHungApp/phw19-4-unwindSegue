@@ -7,7 +7,7 @@
 
 import UIKit
 
-class citiesTableViewController: UITableViewController {
+class CitiesTableViewController: UITableViewController {
 
     // 完整的台灣縣市列表
         let cities = ["台北市", "新北市", "桃園市", "台中市", "台南市", "高雄市", "基隆市", "新竹市", "新竹縣", "苗栗縣", "彰化縣", "南投縣", "雲林縣", "嘉義市", "嘉義縣", "屏東縣", "宜蘭縣", "花蓮縣", "台東縣", "澎湖縣", "金門縣", "連江縣"]
@@ -16,6 +16,7 @@ class citiesTableViewController: UITableViewController {
 
         override func viewDidLoad() {
             super.viewDidLoad()
+            //tableView.backgroundColor = UIColor.lightGray
         }
 
         // MARK: - Table view data source
@@ -31,6 +32,10 @@ class citiesTableViewController: UITableViewController {
         override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cityCell", for: indexPath)
             cell.textLabel?.text = cities[indexPath.row]
+            // 使用UIFont來設定字型
+            if let customFont = UIFont(name: "WD-XLLubrifontTC-Regular", size: 20.0) {
+                cell.textLabel?.font = customFont
+            }
             return cell
         }
 

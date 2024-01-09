@@ -7,25 +7,36 @@
 
 import UIKit
 
-class settingTableViewController: UITableViewController {
+class SettingTableViewController: UITableViewController {
+    
     @IBOutlet weak var citiesLabel: UILabel!
+    @IBOutlet weak var drinksLabel: UILabel!
+    @IBOutlet weak var cupLevelLabel: UILabel!
+    @IBOutlet weak var surgarLevelLabel: UILabel!
+    @IBOutlet weak var iceLevelLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        //tableView.backgroundColor = UIColor.lightGray
     }
     
     
-    @IBAction func unwindToATableViewController(_ unwindSegue: UIStoryboardSegue) {
-        print("unwindToATableViewController")
-        // Use data from the view controller which initiated the unwind segue
-        if let sourceViewController = unwindSegue.source as? citiesTableViewController {
+    @IBAction func unwindToSettingTableViewController(_ unwindSegue: UIStoryboardSegue) {
+        print("unwindToSettingTableViewController")
+        if let sourceViewController = unwindSegue.source as? CitiesTableViewController {
             citiesLabel.text = sourceViewController.selectedValue
+        }
+        if let sourceViewController = unwindSegue.source as? DrinksTableViewController {
+            drinksLabel.text = sourceViewController.selectedValue
+        }
+        if let sourceViewController = unwindSegue.source as? CupLevelTableViewController {
+            cupLevelLabel.text = sourceViewController.selectedValue
+        }
+        if let sourceViewController = unwindSegue.source as? SurgarLevelTableViewController {
+            surgarLevelLabel.text = sourceViewController.selectedValue
+        }
+        if let sourceViewController = unwindSegue.source as? IceLevelTableViewController {
+            iceLevelLabel.text = sourceViewController.selectedValue
         }
     }
 
